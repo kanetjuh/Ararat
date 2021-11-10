@@ -23,7 +23,12 @@ apt install -y nodejs
 1. Clone the source code by Git URL or by ZIP or download from the [releases](https://github.com/Hye-Organization/Ararat/releases)
 2. `cd Ararat` then `npm install`
 3. `npm run build` to make a high-performance build of the panel
-4. Finally, `npm run start` to start an instance of the panel
+4. `npm run start` to start an instance of the panel
+5. Finally, create a file called `.env.local` and fill in the example below with your authentication details.
+```
+MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>/
+MONGODB_DB=<database_name>
+```
 
 ### Documentation
 
